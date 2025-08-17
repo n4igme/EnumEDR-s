@@ -121,6 +121,7 @@ BOOL EnumerateProcesses(OUT PSYSTEM_PROCESS_INFORMATION* ppSystemProcInfo) {
 	);
 	if (STATUS != 0x0) {
 		error("NtQuerySystemInformation - failed with error: 0x%0.8X", STATUS);
+		HeapFree(pSystemProcInfo);
 		bSTATE = FALSE;
 		goto _cleanUp;
 	}
