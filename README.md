@@ -27,8 +27,8 @@ They are listed in `EDRs.c` and its easy to add new EDR's by adding the followin
 }
 ```
 
-## How to run it
-- Compile it using Visual Studio
+## Usage
+- Compile it using Visual Studio 2022
 
 ```
 PS C:\ > .\EnumEDR.exe -h
@@ -40,7 +40,7 @@ Options:
   -h                     Display this help message.
 ```
 
-## Example output
+## Example blocking EDR Processes
 ```
 C:\EnumEDR.exe --edr
 [i] EnumerateProcesses - Enumerating running processes
