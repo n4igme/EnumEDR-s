@@ -40,7 +40,7 @@ Options:
   -h                     Display this help message.
 ```
 
-## Example blocking EDR Processes
+## Example listing EDR Processes
 ```
 C:\EnumEDR.exe --edr
 [i] EnumerateProcesses - Enumerating running processes
