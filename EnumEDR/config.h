@@ -4,5 +4,5 @@
 
 #pragma once
 
-#define MAX_EDR_PROCESSES 16
-#define MAX_EDR_DRIVERS   2
+#define MAX_EDR_PROCESSES 50
+#define MAX_EDR_DRIVERS   10
