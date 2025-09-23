@@ -7,6 +7,11 @@ The listed EDR's and their processes atm are;
 - Microsoft Defender for Endpoint
 - Elastic EDR
 - Sysmon
+- BitDefender
+- Cortex
+- CrowdStrike
+- Sentinel
+- Sophos
 
 Will add more when I get to test them.
 
